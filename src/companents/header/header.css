@@ -1,0 +1,93 @@
+.mygroup_ul {
+    width: 1500px;
+    margin: auto;
+    display: flex;
+}
+
+ .first_ul {
+    display: flex;
+}
+
+ .first_ul li {
+    display: block;
+    padding: 10px;
+}
+
+ .first_ul li a {
+    color: red;
+    text-decoration: none;
+    padding: 5px 10px;
+    background-color: white;
+    border-radius: 10px;
+    font-size: 17px;
+    border: solid #ffffff 2px;
+}
+
+ .first_ul li a:hover {
+    background-color: #da002b;
+    border: solid 2px white;
+    transition: 0.7s ease;
+    color: white;
+}
+
+ .second_ul {
+    display: flex;
+    margin-left: 20%;
+}
+
+ .second_ul li {
+    padding:  10px;
+    display: block;
+}
+
+ .second_ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    padding: 5px 10px;
+    border: solid white 2px;
+    border-radius: 10px;
+}
+
+ .second_ul li a:hover {
+    color: #da002b;
+    background-color: white;
+    transition: 0.7s ease;
+}
+
+@media screen and (max-width: 840px) and (min-width: 390px) {
+    .light{
+        display: flex;
+        line-height: 50px;
+        margin: auto;
+        width: 400px;
+    }
+    .mygroup_ul{
+        width: 400px;
+        display: block;
+        margin: auto;
+    }
+     .first_ul{
+        display: block;
+        margin: auto;
+    }
+     .first_ul li {
+        padding: 1px;
+        
+    }
+     .second_ul{
+        margin-left: 1px;
+        display: block;
+    }
+}
+
+.dark{
+    background-color: rgba(0, 0, 0, 0.616);
+    transition: 0.7s ease;
+}
+
+.light{
+    background-color: #da002b;
+    line-height: 40px;
+    transition: 0.7s ease;
+}
